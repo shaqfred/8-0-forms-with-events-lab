@@ -4,11 +4,14 @@
   "description": "## To-Do list",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress open"
+    "start": "live-server --port=5001 .",
+    "test": "npx cypress open"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.1.0"
+    "cypress": "9.7.0",
+    "cypress-watch-and-reload": "1.10.3",
+    "live-server": "1.1.0"
   }
 }
